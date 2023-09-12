@@ -7,11 +7,11 @@ var bmi = function(height, weight) {
 var mark = bmi(80, 168);
 console.log(mark);
 var join = bmi(95, 196);
+console.log(join);
 const markHigherBMI = mark > join;
 console.log(markHigherBMI);
 if (markHigherBMI) {
-    console.log("Mark's BMI is higher than John's!")
+    console.log("Mark's BMI is higher " + mark + " " + "than John's!" + join)
 } else {
-    console.log("John's BMI is " + { $ }
-        mark + " higher than Mark's!");
+    console.log("John's BMI is " + mark + " higher than Mark's!" + join);
 }
